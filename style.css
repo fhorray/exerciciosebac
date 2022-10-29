@@ -41,7 +41,6 @@ header {
 header h1 {
     text-transform: uppercase;
     font-weight: 700;
-
 }
 
 header ul li {
@@ -64,7 +63,46 @@ header ul li a:hover {
     transition: all 0.3s;
 }
 
+/* --- ESTILO DOS BOTÔES LER MAIS --- */
+
+input {
+    padding: 10px 30px;
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.4s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input:hover {
+    cursor: pointer;
+    background-color: #3B24FF;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 /*--- ESTILO DAS SEÇÕES ---*/
+
+.esportes {
+    background-color: var(--blue-color);
+}
+
+.economia {
+    background-color: var(--purple-color);
+}
+
+.educacao {
+    background-color: #84FAB0;
+}
+
+
+.curiosidades {
+    background-color: var(--dark-color);
+    color: #fff;
+}
 
 .section__title {
     font-family: "Poppins", sans-serif;
